@@ -11,7 +11,7 @@ $stmt->execute();
 $stmt->store_result();
              
 //now use the function
- $resuli=$resultInstance->get($stmt);
+ $result=$resultInstance->get($stmt);
 
  //you can now iterate/loop your multiple result with **foreach**
 
